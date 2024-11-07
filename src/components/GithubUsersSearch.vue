@@ -3,41 +3,7 @@ import { ref } from 'vue';
 
 const username = ref('')
 const userProfile = ref(null);
-// const userProfile = {
-//     "login": "o-emanuelneves",
-//     "id": 103153962,
-//     "node_id": "U_kgDOBiYBKg",
-//     "avatar_url": "https://avatars.githubusercontent.com/u/103153962?v=4",
-//     "gravatar_id": "",
-//     "url": "https://api.github.com/users/o-emanuelneves",
-//     "html_url": "https://github.com/o-emanuelneves",
-//     "followers_url": "https://api.github.com/users/o-emanuelneves/followers",
-//     "following_url": "https://api.github.com/users/o-emanuelneves/following{/other_user}",
-//     "gists_url": "https://api.github.com/users/o-emanuelneves/gists{/gist_id}",
-//     "starred_url": "https://api.github.com/users/o-emanuelneves/starred{/owner}{/repo}",
-//     "subscriptions_url": "https://api.github.com/users/o-emanuelneves/subscriptions",
-//     "organizations_url": "https://api.github.com/users/o-emanuelneves/orgs",
-//     "repos_url": "https://api.github.com/users/o-emanuelneves/repos",
-//     "events_url": "https://api.github.com/users/o-emanuelneves/events{/privacy}",
-//     "received_events_url": "https://api.github.com/users/o-emanuelneves/received_events",
-//     "type": "User",
-//     "user_view_type": "public",
-//     "site_admin": false,
-//     "name": "Emanuel Neves",
-//     "company": null,
-//     "blog": "",
-//     "location": null,
-//     "email": null,
-//     "hireable": null,
-//     "bio": null,
-//     "twitter_username": null,
-//     "public_repos": 2,
-//     "public_gists": 0,
-//     "followers": 24,
-//     "following": 23,
-//     "created_at": "2022-04-06T23:40:36Z",
-//     "updated_at": "2024-10-28T17:18:20Z"
-// }
+
 const error = ref(null)
 
 const getUserProfile = async () => {
