@@ -1,4 +1,6 @@
-# vue-exercises
+# vue-exercises [Em desenvolvimento]
+Neste repositório irei inserir alguns exercícios que estou fazendo em vue 3. Serão projetos simples, como consumir a api de usuários do github, quiz, calculadora e etc.
+Aplicarei diversos conceitos que estou estudando atualmente, como: Composition API, Form Input Bindings, Reactivity Fundamental, Event Handling, Props, Axios e etc.
 
 This template should help get you started developing with Vue 3 in Vite.
 
