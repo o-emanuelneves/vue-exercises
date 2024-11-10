@@ -1,9 +1,13 @@
 <script setup>
-import GithubUsersSearch from './components/GithubUsersSearch.vue';
+import TriviaQuiz from './components/Quiz/TriviaQuiz.vue';
+
+
 </script>
 
 <template>
-  <GithubUsersSearch />
+  <!-- <GithubUsersSearch /> -->
+  <TriviaQuiz />
+
 </template>
 
 <style scoped>
