@@ -49,6 +49,7 @@ const answers = computed(() => {
 });
 
 </script>
+
 <template>
     <ScoreBoard :winCount="winCount" :totalQuestions="totalQuestions" />
   <div v-if="question">
