@@ -12,7 +12,6 @@ const isSpecialPage = computed(() =>
 <template>
   <div>
     <template v-if="!isSpecialPage">
-      <h1>Estou na página index, devo mostrar os cards aqui</h1>
       <IndexProject />
     </template>
     <RouterView />
